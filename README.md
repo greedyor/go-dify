@@ -16,6 +16,11 @@ Context support: All API calls support context.Context, which facilitates timeou
 
 This implementation provides a development experience similar to OpenAI SDK, while being specifically optimized for the Dify API. You can further expand other API endpoints or add more advanced features as needed.
 
+### Introduce project
+```
+go get github.com/greedyor/go-dify
+```
+
 
 ### Usage example
 
@@ -28,7 +33,7 @@ import (
 	"log"
 	"time"
 
-	"github.com/your-org/dify-sdk/dify"
+	"github.com/greedyor/go-dify/pkg/dify"
 )
 
 func main() {
